@@ -17,3 +17,14 @@ while True:
 		camera.stop_preview()
 		espeak.synth("I have spotted a thing, it could be a child or Miles the cat")
 		sleep(5)
+
+		
+#while True:	
+#    pir.wait_for_motion()
+#    filename = datetime.now().strftime("%Y-%m-%d_%H.%M.%S.h264")
+#    camera.start_recording(filename)
+#    pir.wait_for_no_motion()
+#    sleep(5)
+#    camera.stop_recording()
+#    espeak.synth("I have spotted a thing, it could be a child or Miles the cat")
+#sleep(5)
